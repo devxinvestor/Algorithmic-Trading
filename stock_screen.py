@@ -149,7 +149,7 @@ class Stock:
         return results
         
     
-
+'''
 stock = Stock("One year")
 # stocks = stock.get_tickers(12)
 stock_data = stock.get_stock_data('A')
@@ -159,4 +159,4 @@ stock.get_Long_SMA_Crossover(stock_data)
 stock.graph_indicator(stock_data['A'], 'SMA20', 'SMA50')
 stock.get_PSAR_Indicator(stock_data)
 stock.graph_indicator(stock_data['A'], 'SAR')
-
+'''
